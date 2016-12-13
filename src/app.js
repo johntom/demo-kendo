@@ -10,6 +10,9 @@ export class App {
       { name: 'home',             route: '',                  redirect: 'about/about' },
       { name: 'installation',     route: 'installation',      moduleId: 'installation/installation',   title: 'Installation' },
       { name: 'samples',          route: 'samples',           moduleId: 'samples/index',               title: 'Samples' },
+      { name: 'example',             route: 'example',              moduleId: 'example/index',                  title: 'gtz example combo' },
+ { name: 'kendotemplate',             route: 'kendotemplate',              moduleId: 'kendotemplate/index',                  title: 'kendotemplate' },
+
       { name: 'gist-list',        route: 'gist-list',         moduleId: 'shared/gist-list',            title: 'Gist list' }
     ]);
 
